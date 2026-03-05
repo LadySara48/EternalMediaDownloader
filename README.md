@@ -21,10 +21,15 @@ and always respect copyright law. You are strongly advised to use this applicati
 
 ## ✨ Features
 
-- Download video and audio from YouTube and many other platforms
-- Clean and user-friendly GUI built with PyQt6
-- Supports various formats and quality options
-- Powered by the ever-updated yt-dlp engine
+- 🎨 **Modern Dark UI** — Frameless window, rounded corners, smooth animations
+- 🎵 **MP3 Downloads** — 96K / 128K / 148K bitrate options
+- 🎬 **MP4 Downloads** — 360p / 480p / 720p / 1080p quality options
+- 📥 **Multiple Downloads** — Queue system with configurable parallel limit
+- 🚀 **Speed Control** — Per-download speed limiting
+- 📋 **Download History** — Searchable, filterable, with re-download support
+- ✅ **Completed Panel** — Open file/folder with one click
+- ⚙️ **Settings** — Persistent configuration saved to JSON
+- 🔍 **Smart Info Fetch** — Fetches video metadata before download
 
 ---
 
@@ -34,7 +39,7 @@ Before running the application, you need to install the following:
 
 ### 1. Python Dependencies
 
-Need Python 3.10.X+
+Need Python 3.11+
 
 Install required Python packages via pip:
 
@@ -103,6 +108,40 @@ python main.py
 
 ---
 
+## 📁 Project Structure
+
+```
+eternal_media_downloader/
+├── main.py              # Entry point
+├── run.cmd              # Windows launcher
+├── requirements.txt     # Python dependencies
+├── core/
+│   ├── downloader.py    # yt-dlp subprocess engine
+│   ├── settings.py      # Persistent settings manager
+│   └── history.py       # Download history manager
+├── ui/
+│   ├── main_window.py   # Frameless main window
+│   ├── title_bar.py     # Custom title bar
+│   ├── sidebar.py       # Animated sidebar navigation
+│   ├── pages.py         # All content pages
+│   ├── download_card.py # Download progress card
+│   ├── format_dialog.py # Format selection dialog
+│   └── theme.py         # Colors, fonts, dimensions
+└── data/
+    ├── settings.json    # User settings (auto-generated)
+    └── history.json     # Download history (auto-generated)
+```
+
+---
+
+## ⚠️ Disclaimer (Try)
+
+This application is a **GUI wrapper** and does not contain any download engines.  
+It relies on user-installed tools (yt-dlp, ffmpeg).  
+Please respect copyright laws and terms of service of content platforms.
+
+---
+
 ## 👥 Credits
 
 See [CREDITS.md](CREDITS.md) for full credits and acknowledgements.
@@ -111,4 +150,4 @@ See [CREDITS.md](CREDITS.md) for full credits and acknowledgements.
 
 ## 📄 License
 
-This project is open source. Feel free to use, modify, and distribute.
+MIT License — See [LICENSE](LICENSE) for details.
