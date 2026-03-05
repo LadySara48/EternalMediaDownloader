@@ -5,6 +5,20 @@ Download videos and audio from hundreds of platforms with ease.
 
 ---
 
+## ⚠️ Legal Disclaimer
+
+Eternal Media Downloader is intended solely for downloading content that is copyright-free,
+licensed for download, or for which you have explicit permission from the rights holder.
+
+For users downloading content from major platforms such as YouTube, Instagram,
+and similar services — any legal responsibility arising from the downloading of copyrighted or otherwise restricted material rests entirely with the user.
+The developers of this application bear no liability for misuse.
+
+Please be mindful of the terms of service of the platforms you use,
+and always respect copyright law. You are strongly advised to use this application responsibly.
+
+---
+
 ## ✨ Features
 
 - Download video and audio from YouTube and many other platforms
