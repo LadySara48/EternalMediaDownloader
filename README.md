@@ -49,7 +49,7 @@ pip install -r requirements.txt
 
 The `requirements.txt` includes:
 - `PyQt6>=6.10.0` — GUI framework
-- `yt-dlp>=2026.3.3` — Media downloading engine
+- `yt-dlp>=2026.2.21` — Media downloading engine
 
 ---
 
